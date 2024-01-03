@@ -1,1 +1,2 @@
-apt-get -y update \ apt-get -y install libc6-i386 libstdc++6:i386
+sudo docker build --no-cache -t ghcr.io/fishydarwin/ptero-yolks:ubuntu-i386 --progress=plain .
+
